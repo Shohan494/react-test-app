@@ -1,8 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-//import App from './App';
-import './index.css';
-
 function WarningBanner(props) {
   if (!props.warn) {
     return null;
