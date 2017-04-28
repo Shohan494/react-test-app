@@ -16,11 +16,12 @@ function getGreeting(user) {
   return <h1>Hello, Stranger.</h1>;
 }
 
+/*
 const user = {
   firstName: 'Harper',
   lastName: 'Perez'
 };
-
+*/
 const element = (
   <h1>
     {getGreeting(user)}!
@@ -31,3 +32,11 @@ ReactDOM.render(
   element,
   document.getElementById('root')
 );
+
+
+/*
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+*/
