@@ -1,8 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-//import App from './App';
-import './index.css';
-
 class Toggle extends React.Component {
   constructor(props) {
     super(props);
