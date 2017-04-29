@@ -1,8 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-//import App from './App';
-import './index.css';
-
 function FancyBorder(props) {
   return (
     <div className={'FancyBorder FancyBorder-' + props.color}>
